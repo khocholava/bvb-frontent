@@ -1,0 +1,195 @@
+/*Nav Section*/
+.bvb-topbar {
+    background-color: #63a255;
+    list-style: none;
+}
+
+.bvb-topbar-link {
+    color: #ffffff;
+}
+
+.bvb-nav {
+    background-color: #63a255;
+}
+
+.bvb-logo {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*BVB flight search*/
+.bvb-flight-container {
+    background: linear-gradient(to top right, #FDDACF, rgba(0, 47, 75, 0.5)), url("https://i.pinimg.com/originals/12/c7/c3/12c7c30ba7e9a85b2ca11d0963545b29.jpg") center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: calc(100vh - 300px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bvb-flight-form-container {
+    margin-top: 100px;
+}
+
+.bvb-form {
+    background-color: #fff;
+    padding: 44px 0 25px;
+    border-radius: 10px;
+}
+
+.bvb-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.bvb-exchange-icon {
+    display: flex;
+    align-items: center;
+}
+
+.bvb-button {
+    background-color: #63a255 !important;
+    color: #ffffff !important;
+    border-radius: 25px !important;
+    padding: 6px 55px !important;
+    box-shadow: 0 0 0 0.2rem #daffdb !important;
+}
+
+.bvb-button:focus,
+.bvb-button:active {
+    outline-style: solid !important;
+    box-shadow: 0 0 0 0.2rem #9feda4 !important;
+}
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 33px;
+}
+
+
+.bvb-input {
+    border-radius: 10px !important;
+    font-size: 14px !important;
+}
+
+.checkbox label:after,
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+.checkbox .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: 8px;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .fa-check {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.bvb-checkbox-container {
+    margin-left: 2rem !important;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.bvb-checkbox-container > .checkbox {
+    width: auto;
+    margin-right: 20px;
+}
+
+.checkbox label input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .fa-check {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .fa-check {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr {
+    opacity: .5;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+/*Card*/
+.bvb-card {
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+.bvb-card-header {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    background-color: #F2F2F2;
+    border-bottom: none !important;
+}
+
+.bvb-card-list:hover {
+    background-color: #63a255;
+    color: white !important;
+    transition: background-color 0.3s;
+}
+
+.bvb-card-list:hover .bvb-flight-price {
+    color: white !important;
+    transition: color 0.3s;
+
+}
+
+/*SIGN UP*/
+.bvb-sign-up {
+    background-color: red;
+    height: 14vh;
+    background-size: cover;
+}

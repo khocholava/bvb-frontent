@@ -1,0 +1,53 @@
+@media screen and (max-width: 991px) {
+    .bvb-exchange-icon {
+        display: none !important;
+    }
+
+    .bvb-checkbox-container {
+        margin: -12px !important;
+    }
+
+    .bvb-input-container {
+        justify-content: center;
+    }
+
+    .bvb-exchange-icon {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    .bvb-form {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bvb-flight-container {
+        background: none !important;
+        align-items: stretch;
+    !important;
+        height: auto !important;
+    }
+
+    .bvb-flight-form-container {
+        margin-top: 0;
+    }
+
+
+}
+@media screen and (max-width: 576px) {
+    .bvb-checkbox-container {
+        display: flex;
+        margin-bottom: 0!important;
+        flex-direction: column;
+    }
+    .bvb-single-container {
+        margin-bottom: 0!important;
+    }
+    .bvb-input-container {
+        padding: 0 !important;
+    }
+}
